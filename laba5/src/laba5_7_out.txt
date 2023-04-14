@@ -1,0 +1,39 @@
+
+
+;*.oi.avaj tropmi
+
+{ 7_5abal ssalc cilbup
+
+{ )txet gnirtS ,emaNelif gnirtS(etirw diov citats cilbup    
+;)emaNelif(eliF wen = elif eliF        
+{ yrt        
+{ ))(stsixe.elif!( fi            
+;)(eliFweNetaerc.elif                
+}            
+{ )))(eliFetulosbAteg.elif(retirWtnirP wen = tuo retirWtnirP( yrt            
+;)txet(tnirp.tuo                
+}            
+{ )e noitpecxEOI( hctac }        
+;)e(noitpecxEemitnuR wen worht            
+}        
+}    
+{ )emaNelif gnirtS(7_5abal diov citats cilbup    
+;)(redliuBgnirtS wen = bs redliuBgnirtS        
+
+;)emaNelif(eliF wen = elif eliF        
+
+{ yrt        
+{ ))))(eliFetulosbAteg.elif(redaeReliF wen(redaeRdereffuB wen = ni redaeRdereffuB( yrt            
+;s gnirtS                
+{ )llun =! ))(eniLdaer.ni = s(( elihw                
+;))(gnirtSot.)(esrever.)s(redliuBgnirtS wen(dneppa.bs                    
+;)"n\"(dneppa.bs                    
+}                
+}            
+{ )e noitpecxEOI( hctac }        
+;)e(noitpecxEemitnuR wen worht            
+}        
+;)(sridkm.)"7_5tuO/crs/5abal/stcejorPaedI/resu/emoh/"(eliF wen        
+;))(gnirtSot.bs ,"txt.tuo_7_5abal/crs/5abal/stcejorPaedI/resu/emoh/"(etirw.7_5abal        
+}    
+}

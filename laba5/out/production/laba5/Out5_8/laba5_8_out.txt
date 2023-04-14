@@ -1,0 +1,48 @@
+ 
+ IMPORT JAVA.IO.BUFFEREDREADER;
+ IMPORT JAVA.IO.FILE;
+ IMPORT JAVA.IO.FILEREADER;
+ IMPORT JAVA.IO.IOEXCEPTION;
+ 
+ 
+ IMPORT JAVA.IO.*;
+ 
+ 
+ PUBLIC CLASS LABA5_8 {
+     PUBLIC STATIC VOID WRITE(STRING FILENAME, STRING TEXT) {
+         FILE FILE = NEW FILE(FILENAME);
+         TRY {
+             if (!FILE.EXISTS()) {
+                 FILE.CREATENEWFILE();
+             }
+             TRY (PRINTWRITER OUT = NEW PRINTWRITER(FILE.GETABSOLUTEFILE())) {
+                 OUT.PRINT(TEXT);
+             }
+         } CATCH (IOEXCEPTION e) {
+             THROW NEW RUNTIMEEXCEPTION(E);
+         }
+     }
+     PUBLIC STATIC VOID LABA5_8(STRING FILENAME)  {
+         STRINGBUILDER sb = NEW STRINGBUILDER();
+ 
+         FILE FILE = NEW FILE(FILENAME);
+ 
+         TRY {
+             TRY (BUFFEREDREADER in = NEW BUFFEREDREADER(NEW FILEREADER(FILE.GETABSOLUTEFILE()))) {
+                 STRING s;
+                 WHILE ((S = IN.READLINE()) != NULL) {
+                     FOR (STRING WORD:S.SPLIT(" ")){
+                         if (WORD.LENGTH()>2)SB.APPEND(" ").APPEND(WORD.TOUPPERCASE());
+                         ELSE SB.APPEND(" ").APPEND(WORD);
+                     }
+                     SB.APPEND("\N");
+                 }
+             }
+         } CATCH (IOEXCEPTION e) {
+             THROW NEW RUNTIMEEXCEPTION(E);
+         }
+         NEW FILE("/HOME/USER/IDEAPROJECTS/LABA5/SRC/OUT5_8").MKDIRS();
+         LABA5_8.WRITE("/HOME/USER/IDEAPROJECTS/LABA5/SRC/OUT5_8/LABA5_8_OUT.TXT",SB.TOSTRING());
+     }
+ 
+ }
